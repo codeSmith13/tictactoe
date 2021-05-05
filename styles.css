@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+.board{
+    padding-top: 3em;
+    
+}
+
+span{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.rows{
+    clear: both;
+    margin: 0;
+    width: 302px;
+    border: 1px solid;
+}
+.top{
+  border-bottom: 1px solid;
+
+}
+.bottom{
+    border-top: 1px solid;
+
+}
+.left{
+    border-left: 1px solid;
+
+}
+.right{
+    border-right: 1px solid;
+
+}
