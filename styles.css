@@ -1,25 +1,31 @@
 
 
-#board{
+.board{
     padding-top: 3rem;
-    margin: 1.5rem;
     text-align: center;
 
 }
-.square{
-    float: left;
-    clear: right;
-    width: 100px;
-    height: 100px;
-    clear: right;
 
-}
+
+
 
 .row{
+    clear: both;
     margin: 0 auto;
     width: 302px; 
+    
    
 }
+/* all nine cells */
+.row > div{
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+}
+
 .top{
     border-bottom:1px solid black;
     
