@@ -1,36 +1,39 @@
-h1{
+
+
+#board{
+    padding-top: 3rem;
+    margin: 1.5rem;
     text-align: center;
+
+}
+.square{
+    float: left;
+    clear: right;
+    width: 100px;
+    height: 100px;
+    clear: right;
+
 }
 
-.board{
-    padding-top: 3em;
+.row{
+    margin: 0 auto;
+    width: 302px; 
+   
+}
+.top{
+    border-bottom:1px solid black;
     
 }
 
-span{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-.rows{
-    clear: both;
-    margin: 0;
-    width: 302px;
-    border: 1px solid;
-}
-.top{
-  border-bottom: 1px solid;
-
-}
 .bottom{
-    border-top: 1px solid;
-
+    border-top: 1px solid black;
 }
+
 .left{
-    border-left: 1px solid;
-
+    border-right: 1px solid black;
 }
+
 .right{
-    border-right: 1px solid;
-
+    border-left: 1px solid black;
 }
+    
