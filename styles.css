@@ -1,21 +1,31 @@
 
 
+}
+
+h1{
+    font-family: fantasy;
+    color: black;
+    font-weight: bold;
+    
+    clear: both;
+    margin: 0 auto;
+    width: 302px; 
+}
+
 .board{
     padding-top: 3rem;
     text-align: center;
 
+
 }
-
-
-
 
 .row{
     clear: both;
     margin: 0 auto;
     width: 302px; 
     
-   
 }
+
 /* all nine cells */
 .row > div{
     float: left;
