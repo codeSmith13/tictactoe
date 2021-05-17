@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tic Tac Toe</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-        <div class= "board">
-            <div> <h1>Tic Tac Toe</h1> </div>
-            
-        
-            <div class="row">
-                <div class="top left" id="squareA" ></div>
-                <div class="top middle" id="squareB"></div>
-                <div class="top right" id="squareC"></div>
-            </div>
-            <div class="row" id="row3"  >
-                <div class="center left" id="squareD"></div>
-                <div class="center middle " id="squareE"></div>
-                <div class="center right" id="SquareF"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      
+      <h1 CLASS="header">Tic Tac Toe</h1>
+    <h2 class="info">result</h2>
+   
+    <div class="board">
+      <div class="row">
+        <div class="top left"></div>
+        <div class="top middle"></div>
+        <div class="top right"></div>
+      </div>
+      <div class="row" id="row3">
+        <div class="center left"></div>
+        <div class="center middle"></div>
+        <div class="center right"></div>
+      </div>
+      <div class="row" id="row4">
+        <div class="bottom left"></div>
+        <div class="bottom middle"></div>
+        <div class="bottom right"></div>
+      </div>
+       
+    </div>
+    <button input class="btn" type="button"  VALUE="refresh"> RESTART</button>
+     
 
-            </div>
-            <div class="row" id="row4" >
-                <div class="bottom left" id="squareG"></div>
-                <div class="bottom middle" id="SquareH"></div>
-                <div class="bottom right" id="SquareI"></div>
-            
-            </div>
-        
-
-        </div>
-        
-        <script src="" async defer></script>
-    </body>
+    <script src="app.js" async defer></script>
+  </body>
 </html>
