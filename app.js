@@ -1,6 +1,7 @@
 let cells = document.querySelectorAll(".row > div");
 let info = document.getElementsByClassName("info");
-let restart = document.getElementById('restart')
+let restart = document.getElementById('btn')
+
 let X_TEXT = "👽";
 let cellCount = 0;
 let win = [
@@ -42,18 +43,18 @@ function checkWinner() {
       }
       if (X_TEXTCount == 3 ) {
         console.log(X_TEXT + " wins!");
-        info.innerText = "new_value";
+        info.append(X_TEXT + " wins!");
         break;
         
       }
       if (cellCount == 9 && X_TEXTCount == 3) {
         console.log(X_TEXT + " wins!");
-        info.innerText = "new_value";
+        
         break;
         
       } else if (X_TEXTCount == !3 && cellCount == 9) {
         console.log("Draw");
-       info.innerText = "new_value";
+      
 
         
         break;
@@ -67,9 +68,11 @@ function checkWinner() {
      
    }
   
-  
+}
+ restart.onclick = function () {
+   location.reload();
+ };
  
-  
+}
 
-}
-}
+  
